@@ -25,6 +25,7 @@ pipeline {
           stage(''Deploy') {
              steps {
                 sh 'sudo docker run -d --name My-first-container23456 -p 8083:8081 suneetha989/endtoendproject25may:v1'
+                 }
              }
         }
         
